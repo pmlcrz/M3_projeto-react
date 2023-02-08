@@ -4,7 +4,7 @@
     width: 100%;
     border-block: 2px solid var(--vermelhoClaro);
     text-align: center;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 78, 78);
 }
 .newPost h2{
     font-size: 2rem;
@@ -34,12 +34,12 @@ form{
     border-radius: 1px;
 }
 .btn {
-    color: rgb(255, 0, 0);
+    color: #fff;
     font-weight: 600;
     margin-top: 16px;
     padding: 6px 26px;
-    background-color: #fff;
-    border-radius: 1px;
+    background-color: #000000;
+    border-radius: 20px;
     border: 1px solid var(--vermelhoClaro)
 }
 
