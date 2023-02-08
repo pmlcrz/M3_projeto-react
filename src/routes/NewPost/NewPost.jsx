@@ -41,7 +41,7 @@ export default function NewPost() {
                     <input type="text" required name="email" placeholder="Digite seu melhor email" className={styles.emailInput} id="email" onChange={(e) => setEmail(e.target.value)}/>
                 </div>
                 <div className={styles.formControl}>
-                    <label htmlFor="imagem">CPF:</label>
+                    <label htmlFor="numero">CPF:</label>
                     <input type="text" required name="cpf" placeholder="Insira seu cpf" id="cpf" className={styles.cpfInput} onChange={(e) => setcpf(e.target.value)}/>
                 </div>
                 <input type="submit" className={styles.btn} value="Cadastrar" />
