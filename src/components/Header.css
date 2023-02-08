@@ -1,0 +1,13 @@
+#header{
+    border-bottom: 1px solid var(--vermelhoClaro);
+    padding-block: 15px
+}
+#header li{
+    overflow: hidden;
+    color: rgb(255, 0, 0);
+}
+@media (min-width: 992px) {
+    #imagemLogo img{
+        width: 250px
+    }
+}
