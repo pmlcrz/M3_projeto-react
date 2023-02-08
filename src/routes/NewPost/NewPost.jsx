@@ -38,10 +38,10 @@ export default function NewPost() {
                 </div>
                 <div className={styles.formControl}>
                     <label htmlFor="email">Email:</label>
-                    <input type="text" required name="email" placeholder="Digite seu email" className={styles.emailInput} id="email" onChange={(e) => setEmail(e.target.value)}/>
+                    <input type="text" required name="email" placeholder="Digite seu melhor email" className={styles.emailInput} id="email" onChange={(e) => setEmail(e.target.value)}/>
                 </div>
                 <div className={styles.formControl}>
-                    <label htmlFor="imagem">Imagem:</label>
+                    <label htmlFor="imagem">CPF:</label>
                     <input type="text" required name="cpf" placeholder="Insira seu cpf" id="cpf" className={styles.cpfInput} onChange={(e) => setcpf(e.target.value)}/>
                 </div>
                 <input type="submit" className={styles.btn} value="Cadastrar" />
