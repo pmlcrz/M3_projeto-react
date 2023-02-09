@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef} from 'react';
+// import { useState, useEffect, useRef} from 'react';
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import "./app.css"
@@ -47,3 +47,5 @@ setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth)
 					</div>
 	)
 }
+
+//
