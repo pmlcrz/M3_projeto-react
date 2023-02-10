@@ -22,3 +22,5 @@ React
 Node.js
 Bootstrap
 Javascript
+
+Contribuidor do projeto: https://github.com/j23591492
