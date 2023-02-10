@@ -26,5 +26,5 @@ html {
 }
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(#831010, #db0000);
-    border-radius: 20px;
+    border-radius: 5px;
 }
