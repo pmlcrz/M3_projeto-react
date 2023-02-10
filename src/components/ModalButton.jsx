@@ -29,7 +29,7 @@ import "./ModalButton.css";
                  <h2>Mais informações sobre o {nomeSerie}</h2>
                  <hr></hr>
                  <p>
-                     {sinopseFilme}
+                     {sinopseSerie}
                  </p>
 
 
