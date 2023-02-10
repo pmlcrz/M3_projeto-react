@@ -39,7 +39,7 @@ form{
     margin-top: 16px;
     padding: 6px 26px;
     background-color: #000000;
-    border-radius: 20px;
+    border-radius: 2px;
     border: 1px solid var(--vermelhoClaro)
 }
 
@@ -47,6 +47,6 @@ form{
     .newPost{
         width: 500px;
         margin-inline: auto;
-        border-radius: 16px;
+        border-radius: 5px;
     }
 }
