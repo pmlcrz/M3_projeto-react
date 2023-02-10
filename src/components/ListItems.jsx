@@ -38,7 +38,7 @@ export default function ListItems({
   //Deletar serie  //
 
   function deletar(id) {
-    if (!confirm(`Realmente deseja deletar a serie "${nomeFilme}" da sua lista?`)) {
+    if (!confirm(`Realmente deseja deletar a serie "${nomeSerie}" da sua lista?`)) {
     } else {
       fetch(`https://projetoindividual-pamelam3.onrender.com/${id}`, {
         method: "DELETE",
@@ -60,7 +60,7 @@ export default function ListItems({
   const [imagem, setImagem] = useState("")
 
 
-  const updateFilme = async(e) => {
+  const updateSerie = async(e) => {
     e.preventDefault();
     await API.put(`/series/${id}`,{
         titulo: titulo,
